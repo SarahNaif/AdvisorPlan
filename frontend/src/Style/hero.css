@@ -1,0 +1,30 @@
+
+.masthead{
+  width: 100%;
+  position: relative;
+}
+  
+ .masthead .overlay {
+    position: absolute;
+    background-color: #212529;
+    height: 98vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+  }
+  
+  header.masthead h1 {
+    font-size: 2rem;
+  }
+
+  .textbox{
+    margin-top: 20px;
+  }
+  .head{
+    font-size: 68px;
+    font-weight: 900;
+    color: #ffffff;
+    font-family: "Poppins",sans-serif;
+    line-height: 1.1;
+  }

@@ -1,0 +1,70 @@
+/* .masthead{
+    width: 100%;
+    position: relative;
+  }
+    
+   .masthead .overlay {
+      position: absolute;
+      background-color: #212529;
+      height: 80vh;
+      width: 100%;
+      top: 0;
+      left: 0;
+      opacity: 0.3;
+    } */
+    .mast{
+       
+     height:80vh;
+     background-image:linear-gradient(45deg ,rgba(0, 0, 0, 0.399),rgba(0, 0, 0, 0.146))  ,url(https://res.cloudinary.com/dvukj9sqf/image/upload/v1613494597/timo-wielink-Uz_9UwAsMgs-unsplash_reevdl.jpg);
+      background-position-y:center center ;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+   
+    .mast-2{
+       
+        height:80vh;
+        background-image:linear-gradient(45deg ,rgba(0, 0, 0, 0.399),rgba(0, 0, 0, 0.146))  ,url(https://res.cloudinary.com/dvukj9sqf/image/upload/v1613512379/zane-lee-joJvfijEc4s-unsplash_cpf3yv.jpg);
+         background-position-y:center center ;
+         background-size: cover;
+         background-repeat: no-repeat;
+       }
+/* 
+@media only screen and (max-width:1080px){
+    .col-one{
+        width: 50%;
+    }
+
+    .col-two{
+        width: 45%;
+
+    }
+
+} */
+
+/* @media only screen and (max-width:800px){
+    body{
+        
+        background:url('https://res.cloudinary.com/dvukj9sqf/image/upload/v1613494597/timo-wielink-Uz_9UwAsMgs-unsplash_reevdl.jpg');
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    }
+    .container{
+        background:rgba(0,0,0,0,0.8);
+        overflow:hidden;
+height: 100%;
+
+    }
+    .inner{
+        background:transparent;
+        
+        margin: auto;
+    }
+   
+
+} */
+  
+
+
+    

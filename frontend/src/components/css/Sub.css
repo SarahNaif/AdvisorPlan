@@ -1,0 +1,9 @@
+.effect:hover{
+  box-shadow:  0px 2px 22px rgba(0, 0, 0, 0.08);; 
+}
+
+.img{
+  z-index: -1;
+  width: 100vh;
+  background-image: url("https://res.cloudinary.com/dvukj9sqf/image/upload/v1613530753/blob_6_gam5cy.svg");
+}

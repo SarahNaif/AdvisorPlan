@@ -1,0 +1,33 @@
+.navBar {
+    background-color: transparent;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    
+   
+  }
+
+  .notactive *{
+    color:white !important;
+  }
+
+.acttive *{
+  color:#4F4846 !important;
+}
+  .navBar.acttive{
+background-color: white;
+box-shadow: 0 0 8px rgba(0,0,0,.05),0 8px 16px rgba(0,0,0,.1);
+color: black !important;
+  }
+  .navBar.acttive:hover{
+    color: none !important;
+  }
+
+ 
+
+
+ 

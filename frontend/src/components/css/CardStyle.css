@@ -1,0 +1,52 @@
+
+.rooty {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+    background: #fff; 
+    /* fallback for old browsers */
+
+	background: -webkit-linear-gradient(
+		to right,
+		rgb(226, 223, 223),
+		rgb(224, 223, 223)
+    );
+
+     /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to right, rgb(206, 202, 202), rgb(233, 230, 230));
+     padding: 50px ;
+}
+ 
+.App {
+	width: 450px;
+	display: flex;
+	height: 70vh;
+	justify-content: space-around;
+	flex-direction: column;
+	background: #ffff;
+	border-radius: 10px;
+}
+
+form {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+input {
+	background: #f9f9f9;
+	padding: 10px;
+	width: 100%;
+	border: none;
+	margin-bottom: 20px;
+	font-size: 14px;
+	color: rgb(0, 0, 0);
+	outline: none;
+	font-weight: 300;
+}
+
+.rccs__card--unknown > div {
+	background: #75c9a5;
+}
