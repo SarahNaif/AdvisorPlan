@@ -98,14 +98,14 @@ we tried to make the appointments' times showed depending on the free times dire
 
 1. Clone the repository:
 ```
-$ git clone https://git.generalassemb.ly/Overflow/project4_overflow.git
+$ git clone https://github.com/SarahNaif/AdvisorPlan.git
 $ cd project4_overflow
 ```
 
 
 2. Start the backend server:
 ```
-$ cd frontend 
+$ cd backend 
 // install dependencies
 $ npm i 
 // start the server
