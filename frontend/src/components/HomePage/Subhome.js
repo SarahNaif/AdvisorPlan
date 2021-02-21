@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 import SectionHow from './SectionHow'
 
-import '../css/Sub.css'
+import '../css/home.css'
 const Subhome = () => {
 
     const Section = styled.div`

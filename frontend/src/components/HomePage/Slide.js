@@ -6,7 +6,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 // css files under this
-import "../css/slider.css"
+import "../css/home.css"
 const Slide = () => {
  
     

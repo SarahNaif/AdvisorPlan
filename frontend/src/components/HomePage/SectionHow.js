@@ -3,7 +3,7 @@ import { Button,Container,Row,Col,Card,Form} from 'react-bootstrap';
 import styled from 'styled-components';
 
 import Slide from './Slide';
-import "../css/section-how.css"
+import "../css/home.css"
 const SectionHow = () => {
 
 

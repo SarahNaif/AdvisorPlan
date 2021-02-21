@@ -28,7 +28,7 @@ window.addEventListener('scroll',changeBackground)
 
   return (
     <div>
-       <Navbar className={navBar || location.pathname != '/' ?'navBar acttive':'navBar notactive'} fixed="top"  expand="lg" >
+       <Navbar className={navBar || location.pathname !== '/' ?'navBar acttive':'navBar notactive'} fixed="top"  expand="lg" >
         <Navbar.Brand className="ml-5 font-weight-bold mt-2" as={Link} to="/">
           ADVISOR PLAN
           </Navbar.Brand>
@@ -42,15 +42,13 @@ window.addEventListener('scroll',changeBackground)
             <Nav.Link className="mt-2" as={Link} to="/">
               Home
               </Nav.Link>
-            {/* <Nav.Link className="mt-2" as={Link} to="/Service" >
-              Services
-              </Nav.Link> */}
+           
             <Nav.Link className="mt-2" as={Link} to="/Packages" >
               Packages
               </Nav.Link>
-            {/* <Nav.Link className="mt-2" as={Link} to="/Aboutus">
+            <Nav.Link className="mt-2" as={Link} to="/Aboutus">
               About us
-              </Nav.Link> */}
+              </Nav.Link>
           </Nav>
 
           <Nav className=" ml-auto mr-5 font-weight-normal ">
@@ -78,9 +76,9 @@ window.addEventListener('scroll',changeBackground)
               </NavDropdown>
             }
             {/* to make margin in right */}
-            <Nav.Link className="mr-2 nav " href="/signup">
+            <Nav.Link className="mr-2  " >
             </Nav.Link>
-            <Nav.Link className="mr-2" href="/signup">
+            <Nav.Link className="mr-2" >
             </Nav.Link>
             {/* to make margin in right */}
 
