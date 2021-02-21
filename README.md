@@ -134,10 +134,6 @@ $ npm start
 - [Advisor Plan](https://advisor-plan-1.herokuapp.com/)
 
 
-## Acknowledgments
-
-Overflow team would like to express great thanks to the best instructors: Marco Santonastasi, Yasir Al-Muhtrish, Ali Hamidaddin, Haneen Alghamdi and Sara kuddah for their valuable guidance and support during the development of the project and the whole cladss.
-
 
 ## Future Suggestion and Inhancment
 
