@@ -129,9 +129,7 @@ $ npm start
 - [cloudinary](https://cloudinary.com/)
 
 
-## Live link
 
-- [Advisor Plan](https://advisor-plan-1.herokuapp.com/)
 
 
 
