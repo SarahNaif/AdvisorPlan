@@ -9,7 +9,7 @@ const Subhome = () => {
 
     const Section = styled.div`
       padding: 80px 0;
-      margin-bottom: 36px;
+      margin-bottom: 30px;
       text-align: center;
       
     `;
@@ -122,7 +122,7 @@ const Subhome = () => {
         {/* about us section */}
         
         
-      <Container className="">
+      {/* <Container className="">
       <Text><h2 className='font-weight-bolder text-center'>About us</h2></Text>
       <Container as="div" className="border-bottom   "style={{width:'70px', border:'2px solid #bbb'}}></Container> 
         <Row className=" mt-5 ">
@@ -159,7 +159,7 @@ const Subhome = () => {
           </Col>
         </Row>
 
-      </Container>
+      </Container> */}
     <Section>
 <SectionHow/>
     </Section>

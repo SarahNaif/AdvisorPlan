@@ -10,22 +10,34 @@
     
    
   }
+  .navBar:hover{
+    color: aqua;
+  }
 
   .notactive *{
     color:white !important;
   }
+  .acttive *{
+    color:#4F4846 !important;
+  }
 
-.acttive *{
-  color:#4F4846 !important;
-}
+  /* fixing hover problem  */
+  .notactive * :hover{
+    color:#d5d5d5 !important;
+  }
+  .acttive * :hover{
+    color:rgb(0,136,204) !important;
+  }
+
+
+
+
   .navBar.acttive{
 background-color: white;
 box-shadow: 0 0 8px rgba(0,0,0,.05),0 8px 16px rgba(0,0,0,.1);
 color: black !important;
   }
-  .navBar.acttive:hover{
-    color: none !important;
-  }
+
 
  
 

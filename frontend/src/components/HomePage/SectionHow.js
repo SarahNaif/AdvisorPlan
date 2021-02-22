@@ -13,20 +13,7 @@ const SectionHow = () => {
       text-align: center;
     `;
 
-    const Circle = styled.div`
-      background: lightblue;
-      border-radius: 50%;
-      margin-bottom:20px;
-      margin-left:-9px;
-      width: 90px;
-      height: 90px;
-      
-    `;
-     const Text = styled.h2`
-     margin-top:25px;
-     color:white;
-     
-   `;
+
 
 
 
@@ -166,90 +153,7 @@ const SectionHow = () => {
             </Col>
           </Container>
 
-          {/* <Container fluid>
-            <Row>
-              <Col className="mr-auto">
-               
-                <h2 style={{color:'rgb(0, 136, 204)',fontWeight:'800',}}>How It Works</h2>
-                 
-                <br></br>
-                <p>
-                  This is a simple hero unit, a simple jumbotron-style component
-                  <br></br>for calling extra attention to featured content or
-                  information to featured content.
-                </p>
-              </Col>
-            </Row>
-
-            <Row style={{ backgroundColor: "white" }}>
-             
-              <Container className="p-3 ms-5  d-flex align-items-center justify-content-center flex-wrap ">
-                <Col sm>
-                  <br></br>
-                  <Card
-                    style={{
-                      width: "18rem",
-                      border: "none",
-                    }}
-                  >
-                    <Card.Body className="d-flex flex-column align-items-center ">
-                      <Circle>
-                        <Text>01</Text>
-                      </Circle>
-                      <Card.Title className="font-weight-bolder">Schedule</Card.Title>
-
-                      <Card.Text>
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </Card.Text>
-                    </Card.Body>
-                  </Card>
-                </Col>
-
-                <Col sm>
-                  <br></br>
-                  <Card
-                    style={{
-                      width: "18rem",
-                      border: "none",
-                    }}
-                  >
-                    <Card.Body className="d-flex flex-column align-items-center ">
-                      <Circle>
-                        <Text>02</Text>
-                      </Circle>
-                      <Card.Title className="font-weight-bolder">Disscuision</Card.Title>
-                      <Card.Text>
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </Card.Text>
-                    </Card.Body>
-                  </Card>
-                </Col>
-
-                <Col sm>
-                  <br></br>
-                  <Card
-                    style={{
-                      width: "18rem",
-                      border: "none",
-                    }}
-                  >
-                    <Card.Body className="d-flex flex-column align-items-center ">
-                      <Circle>
-                        <Text>03</Text>
-                      </Circle>
-                      <Card.Title className="font-weight-bolder">Plan</Card.Title>
-                      <Card.Text>
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </Card.Text>
-                    </Card.Body>
-                  </Card>
-                </Col>
-              </Container>
-            </Row>
-          </Container>*/}
+      
         </Section>
         <Slide />
       </>
